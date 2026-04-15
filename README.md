@@ -9,28 +9,29 @@
     > To change the wallpaper Replace this file with your desired background with the same name 
 
 ### Steps to install:
-    0. Install dependencies for arch 
+
+0. Install dependencies for arch 
 
         ```bash
         sudo pacman -S --needed sddm qt6-svg qt6-virtualkeyboard qt6-multimedia-ffmpeg
         ```
 
-    1. Copy the fonts folders(redhat-vf,redhat) to /etc/fonts 
+1. Copy the fonts folders(redhat-vf,redhat) to /etc/fonts 
 
-    2. Copy the folder Silent to /usr/share/sddm/themes/
+2. Copy the folder Silent to /usr/share/sddm/themes/
 
-    3. Test the Theme with 
+3. Test the Theme with 
 
         ```bash
         sddm-greeter-qt6 --test-mode --theme /usr/share/sddm/themes/silent
         ```
 
-    4. If you face any problem visit 
+4. If you face any problem visit 
         [ https://github.com/uiriansan/SilentSDDM ]
 
-    5. If the test is succesful apply the theme by editing /etc/sddm.conf
-        
-        The file should contain:
+5. If the test is succesful apply the theme by editing /etc/sddm.conf
+
+The file should contain:
 
         ```
         [General]
