@@ -44,7 +44,17 @@
         ```
 
 
+# Hypr 
+    - Basic config of Hyprland with Hyprpaper
 
+# Wallpapers
+    - use preload in hyprpaper to load them
 
-- Wallpapers 
+# Waybar
+
+    - Based on Onedark colorscheme, more features will be added soon.
+
+# Rofi
+
+    - Inspired from adi1090x, with minor changes to looks and basic config.
  
