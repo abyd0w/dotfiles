@@ -31,7 +31,7 @@
 
 5. If the test is succesful apply the theme by editing /etc/sddm.conf
 
-The file should contain:
+    The file should contain:
 
         ```
         [General]
