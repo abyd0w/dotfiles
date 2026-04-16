@@ -1,0 +1,12 @@
+setopt correct  		#To fix mistakes
+setopt extendedglob 		#Allows regular expressions with *
+setopt nocaseglob		#Case-Sensitive globbing
+setopt rcexpandparam		#Array expansion with parameters
+setopt nocheckjobs		#Nowarning when exiting
+setopt numericglobsort  	#Numerical sorting to files
+setopt nobeep			#No beep sound
+setopt appendhistory		#Append to history instead of overwriting
+setopt histignorealldups 	#If a command is duplicate remove the old one
+setopt autocd			#If only directory path is entered , cd there
+setopt inc_append_history	#Save commands added to the history,or on exit
+setopt histignorespace  	#No save when starting is space

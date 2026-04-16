@@ -1,0 +1,14 @@
+# Abyd0w aliases
+
+#GENERAL ALIASES
+
+alias grep="grep --color=auto"
+alias diff="diff --color=auto"
+alias rm="rm -ri"
+alias mv="mv -i"
+alias vim="nvim"
+alias ls="ls -lah --color=auto --group-directories-first"
+alias df='df -h'
+alias free='free -m'
+
+
