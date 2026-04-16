@@ -45,20 +45,24 @@
 
 
 # Hypr 
-    - Basic config of Hyprland with Hyprpaper
+
+ - Basic config of Hyprland with Hyprpaper
 
 # Wallpapers
-    - use preload in hyprpaper to load them
+
+ - use preload in hyprpaper to load them
 
 # Waybar
 
-    - Based on Onedark colorscheme, more features will be added soon.
+- Based on Onedark colorscheme, more features will be added soon.
 
 # Rofi
 
-    - Inspired from adi1090x, with minor changes to looks and basic config.
+- Inspired from adi1090x, with minor changes to looks and basic config.
 
 # ZSH
     
-    - need to configure .zshenv to actually tell zsh to look in ~/.config/zsh
+> need to configure zshenv to actually tell zsh to look in ~/.config/zsh
+
+- Paste the zshenv file in /etc/zsh 
  
