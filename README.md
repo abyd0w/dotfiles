@@ -59,4 +59,6 @@
     - Inspired from adi1090x, with minor changes to looks and basic config.
 
 # ZSH
+    
+    - need to configure .zshenv to actually tell zsh to look in ~/.config/zsh
  
