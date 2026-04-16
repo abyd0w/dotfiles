@@ -57,4 +57,6 @@
 # Rofi
 
     - Inspired from adi1090x, with minor changes to looks and basic config.
+
+# ZSH
  
