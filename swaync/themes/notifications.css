@@ -1,0 +1,55 @@
+@define-color text            @fg;
+@define-color background-alt  @bg1;
+@define-color selected        @grey1;
+@define-color hover           @purple;
+@define-color urgent          @red;
+
+* {
+  font-size: 12px;
+  font-family: "JetBrains Mono Nerd Font 10";
+  transition: 200ms;
+
+}
+
+.notification-row {
+  outline: none;
+  margin: 10px;
+  padding: 0px;
+}
+
+.notification{
+    background: transparent;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px 0 rgba(0,0,0,.6);
+}
+
+.notification-content {
+    background: alpha(@bg1, .95);
+    padding: 7px;
+    border-radius: 10px;
+    border: 2px solid @grey2;
+    margin: 0;
+}
+
+.close-button {
+    background: @bg2;
+    color: @fg;
+    text-shadow: none;
+    padding: 0;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.close-button:hover {
+    box-shadow: none;
+    background: @blue;
+    transition: all .15s ease-in-out;
+    border: none;
+}
+
+.notification-default-action:hover,
+.notification-action:hover {
+	background: @fg;
+}

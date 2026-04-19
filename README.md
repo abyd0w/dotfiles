@@ -65,4 +65,9 @@
 > need to configure zshenv to actually tell zsh to look in ~/.config/zsh
 
 - Paste the zshenv file in /etc/zsh 
- 
+
+# Swaync
+
+- Custom swaync theme (stll somethings are not completed but a basic notification manager that gets the job done)
+
+

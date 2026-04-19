@@ -1,0 +1,253 @@
+* {
+  all: unset;
+  font-size: 12px;
+  font-family: "JetBrainsMono Nerd Font Propo";
+  transition: 200ms;
+
+}
+
+/* Avoid 'annoying' backgroud */
+.blank-window {  
+  background: transparent;  
+}
+  
+.control-center .notification-row:focus,
+.control-center .notification-row:hover {
+    opacity: 1;
+    background: @grey0;
+}
+
+.summary {
+    padding-top: 3px;
+    font-size: 16px;
+    color: @aqua;
+}
+
+.time {
+    font-size: 10px;
+    color: @fg;
+    margin-right: 24px;
+}
+
+.body {
+    font-size: 12px;
+    color: @fg;
+}
+
+.control-center {
+    background: @bg0;
+    border: 2px solid @grey1;
+    border-radius: 10px;
+}
+
+.control-center-list {
+    background: transparent;
+}
+
+.control-center-list-placeholder {
+    opacity: 0;
+}
+ 
+.floating-notifications {
+    background: transparent;
+}
+
+.widget-title {
+    color: #ffffff;
+    background: @bg3;
+    padding: 5px 10px;
+    margin: 10px 10px 5px 10px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+
+.widget-title>button {
+    font-size: 1rem;
+    color: @fg;
+    text-shadow: none;
+    background: @bg2;
+    box-shadow: none;
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+ 
+.widget-title>button:hover {
+    background: @bg5;
+}
+
+.widget-dnd {
+    background: @bg3;
+    padding: 5px 10px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 5px;
+    font-size: large;
+    color: #ffffff;
+}
+ 
+.widget-dnd>switch {
+    border-radius: 5px;
+    background: @grey0;
+}
+ 
+.widget-dnd>switch:checked {
+    background: @aqua;
+    border-radius: 5px;
+
+}
+ 
+.widget-dnd>switch slider {
+    padding: 1px 1px 1px 3px;
+    background: @bg1;
+    border-radius: 5px;
+}
+ 
+.widget-dnd>switch:checked slider {
+    padding: 1px 3px 1px 1px;
+    background: @bg1;
+    border-radius: 5px;
+}
+
+.widget-label {
+    margin: 10px 10px 5px 10px;
+}
+ 
+.widget-label>label {
+    font-size: 1rem;
+    color: @fg;
+
+}.widget-mpris {
+    color: @fg;
+    background: @bg3;
+    padding: 5px 10px 0px 10px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+ 
+.widget-mpris > box > button {
+    color: #ffffff;
+    border-radius: 5px;
+}
+ 
+.widget-mpris-player {
+    background-color: @bg1;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+.widget-mpris button {
+  color: alpha(@fg, .6);
+}
+ 
+.widget-mpris-title {
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.widget-mpris button:hover {
+  color: @fg;
+}
+
+.widget-mpris-album-art {
+  border-radius: 5px;
+}
+
+.widget-mpris-subtitle {
+    font-weight:500;
+    font-size: 0.8rem;
+}
+
+picture.mpris-background {
+  opacity: 0;
+}
+
+/* Ensure progress bars are visible even with all: unset */
+.progressbar {
+    background: #d65d0e; /* Example color */
+    border-radius: 4px;
+}
+
+.progress {
+    background: #d65d0e; /* Example color */
+}
+
+.widget-volume {
+    background:@bg3;
+    padding: 5px;
+    margin: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: @fg;
+    box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.widget-volume trough highlight {
+    padding: 3px;
+    margin: 0 5px 0 5px;
+    border-radius: 12px;
+    background: @fg;
+    color: @bg1;
+}
+
+.widget-volume label {
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+.widget-volume>box>button {
+    background: @bg3;
+    border: 1px solid @bg1;
+    border-radius: 8px;
+    padding: 4px;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.widget-volume>box>button:hover {
+    background: @bg5;
+    /*transform: scale(1.05); */
+}
+
+.per-app-volume {
+    background-color: @bg4;
+    padding: 4px 8px 8px;
+    margin: 0 8px 8px;
+    border-radius: 10px;
+    color: @fg;
+}
+
+.widget-slider label {
+  font-size: inherit;
+}
+
+.widget-buttons-grid {
+    padding: 5px;
+    margin: 5px 10px 10px 10px;
+    border-radius: 5px;
+    background: @bg3;
+}
+ 
+.widget-buttons-grid>flowbox>flowboxchild>button {
+    margin: 5px;
+    padding: 5px;
+    background: @bg5;
+    border-radius: 5px;
+    color: @fg;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button label {
+	font-size: 16px;
+}
+
+.widget-buttons-grid>flowbox>flowboxchild>button:hover {
+    background: @bg0;
+}
+ 
+.widget-menubar>box>.menu-button-bar>button {
+    border: none;
+    background: transparent;
+}
+ 
+.topbar-buttons>button {
+    border: none;
+    background: transparent;
+}
