@@ -47,6 +47,7 @@
 # Hypr 
 
  - Basic config of Hyprland with Hyprpaper
+ - Keybinds updated for screendhot and clipboard menu
 
 # Wallpapers
 
